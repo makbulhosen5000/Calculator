@@ -1,0 +1,63 @@
+#container{
+	background: #AFEEEE;
+	height: 430px;
+	width: 300px;
+	border-radius: 8px;
+	position: relative;
+	top: 100px;
+	margin: 0px auto;
+}
+.screen{
+	background-color: #ffff99;
+	width: 270px;
+	height: 60px;
+	position: relative;
+	top: 20px;
+	left: 15px;
+}
+.screen input{
+	background-color: #e5dfa0;
+	width: 265px;
+	height: 56px;
+	color: black;
+	position: relative;
+	font-size: 25px;
+	text-align: right;
+}
+.btns{
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+.button{
+	width: 40px;
+	height: 30px;
+	border: none;
+	border-radius: 7px;
+	margin-left: 9px;
+	cursor: pointer;
+	
+
+}
+.button.black{
+	color: white;
+	background-color: black;
+	border-bottom: 2px solid #647489;
+	border-top: 2px black;
+}
+
+.button.silver{
+	color: white;
+	background-color: #647489;
+	border-bottom: 2px solid black;
+
+}
+.button.red{
+	color: white;
+	background-color: red;
+	border-bottom: 2px solid black;
+
+}
+p{
+	line-height: 20px; 
+}
